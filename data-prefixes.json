@@ -1,18 +1,27 @@
-// data-prefixes.json (Exemple)
 {
-    "33": {
-        "country": "France",
-        "fixed_prefix": ["1", "2", "3", "4", "5", "9"],
-        "mobile_prefix": ["6", "7"]
-    },
-    "49": {
-        "country": "Germany",
-        "fixed_prefix": ["2", "3", "4", "6", "7"],
-        "mobile_prefix": ["15", "16", "17"]
-    },
-    "212": {
-        "country": "Morocco",
-        "fixed_prefix": ["5"],
-        "mobile_prefix": ["6", "7"]
-    }
+    "1": { "country": "USA/Canada", "length": 10, "mobile_prefix": ["2", "3", "4", "5", "6", "7", "8", "9"], "fixed_prefix": ["2", "3", "4", "5", "6", "7", "8", "9"] },
+    "44": { "country": "United Kingdom", "length": 10, "mobile_prefix": ["7"], "fixed_prefix": ["1", "2"] },
+    "49": { "country": "Germany", "length": 10, "mobile_prefix": ["15", "16", "17"], "fixed_prefix": ["2", "3", "4", "5", "6", "7", "8", "9"] },
+    "33": { "country": "France", "length": 9, "mobile_prefix": ["6", "7"], "fixed_prefix": ["1", "2", "3", "4", "5", "9"] },
+    "34": { "country": "Spain", "length": 9, "mobile_prefix": ["6", "7"], "fixed_prefix": ["8", "9"] },
+    "39": { "country": "Italy", "length": 9, "mobile_prefix": ["3"], "fixed_prefix": ["0"] },
+    "31": { "country": "Netherlands", "length": 9, "mobile_prefix": ["6"], "fixed_prefix": ["1", "2", "3", "4", "5", "7"] },
+    "41": { "country": "Switzerland", "length": 9, "mobile_prefix": ["7"], "fixed_prefix": ["2", "3", "4", "6", "7", "8", "9"] },
+    "43": { "country": "Austria", "length": 10, "mobile_prefix": ["6"], "fixed_prefix": ["1", "3", "4", "5", "6", "7", "8", "9"] },
+    "32": { "country": "Belgium", "length": 9, "mobile_prefix": ["4"], "fixed_prefix": ["2", "3", "4", "7", "8"] },
+    "351": { "country": "Portugal", "length": 9, "mobile_prefix": ["9"], "fixed_prefix": ["2"] },
+    "212": { "country": "Morocco", "length": 9, "mobile_prefix": ["6", "7"], "fixed_prefix": ["5"] },
+    "213": { "country": "Algeria", "length": 9, "mobile_prefix": ["5", "6", "7"], "fixed_prefix": ["2", "3"] },
+    "216": { "country": "Tunisia", "length": 8, "mobile_prefix": ["9"], "fixed_prefix": ["7"] },
+    "20": { "country": "Egypt", "length": 10, "mobile_prefix": ["1"], "fixed_prefix": ["2", "3"] },
+    "971": { "country": "United Arab Emirates", "length": 9, "mobile_prefix": ["5"], "fixed_prefix": ["2", "4", "6"] },
+    "966": { "country": "Saudi Arabia", "length": 9, "mobile_prefix": ["5"], "fixed_prefix": ["11", "12", "13", "14"] },
+    "90": { "country": "Turkey", "length": 10, "mobile_prefix": ["5"], "fixed_prefix": ["2", "3", "4"] },
+    "55": { "country": "Brazil", "length": 11, "mobile_prefix": ["11", "21", "31", "41", "51", "61", "71", "81", "91"], "fixed_prefix": ["11", "21", "31", "41", "51", "61", "71", "81", "91"] },
+    "52": { "country": "Mexico", "length": 10, "mobile_prefix": ["55", "81", "33"], "fixed_prefix": ["55", "81", "33"] },
+    "81": { "country": "Japan", "length": 10, "mobile_prefix": ["7", "8", "9"], "fixed_prefix": ["3", "6"] },
+    "86": { "country": "China", "length": 11, "mobile_prefix": ["13", "15", "18"], "fixed_prefix": ["10", "20", "21"] },
+    "91": { "country": "India", "length": 10, "mobile_prefix": ["7", "8", "9"], "fixed_prefix": ["11", "22"] },
+    "61": { "country": "Australia", "length": 9, "mobile_prefix": ["4"], "fixed_prefix": ["2", "3", "7", "8"] },
+    "64": { "country": "New Zealand", "length": 9, "mobile_prefix": ["2"], "fixed_prefix": ["3", "4", "7", "9"] }
 }
